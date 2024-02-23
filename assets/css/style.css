@@ -1,0 +1,58 @@
+body {
+    background: linear-gradient(-45deg, white, rgb(193, 190, 190), rgb(235, 217, 217));
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    height: 100vh;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+a {
+    text-decoration: none;
+}
+
+section#about-us, section#testimonial {
+    background-color: white;
+}
+
+#about-us h3 {
+    color: purple !important;
+}
+
+#about-us h2 {
+    color: purple !important;
+}
+
+.text-purple {
+    color: purple ;
+}
+
+.button-primary-outline {
+    grid-column-gap: 8px;
+    grid-row-gap: 8px;
+    border: 1px solid #933393;
+    border-radius: 8px;
+    align-items: center;
+    padding: 17px 16px;
+    display: flex;
+    text-align: center;
+    cursor: pointer;
+}
+
+.carousel {
+    background-color: #F1F3FF;
+    width: 900px;
+    height: 400px;
+}
